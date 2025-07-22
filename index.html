@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gomyfood</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
+    <nav class="navigations">
       <h4>Gomyfood</h4>
-      <ul>
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contacts">Contacts</a></li>
-      </ul>
+      <div>
+        <a href="#hero">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contacts">Contacts</a>
+      </div>
     </nav>
     <main>
       <section id="hero">
-        <h1>Welcome to Gomyfood</h1>
-        <p>your one-stop <b>solution</b> for <strong>food delivery!</strong></p>
-        <img src="images/image.png" />
-        <a href="services"><button>services</button></a>
+        <div>
+          <h1>Welcome to <span>Gomyfood</span></h1>
+          <p>
+            your one-stop <b>solution</b> for <strong>food delivery!</strong>
+          </p>
+
+          <a href="services"><button>services</button></a>
+        </div>
       </section>
       <section id="services">
         <h3>Our services</h3>
@@ -29,31 +40,21 @@
           <li>milk</li>
         </ol>
       </section>
-      <section id="contacts">
+      <section id="socials">
         <h3>join us on :</h3>
-        <ul>
-          <li>
-            <a
-              href="http://www.facebook.com"
-              target="-blank"
-              alt="facebook link"
-              >facebook</a
-            >
-          </li>
-          <li>
-            <a href="http://www.youtube.com" target="-blank" alt="youtube link"
-              >youtube</a
-            >
-          </li>
-          <li>
-            <a
-              href="http://www.instagram.com"
-              target="-blank"
-              alt="instagram link"
-              >instagram</a
-            >
-          </li>
-        </ul>
+        <div class="social-logos">
+          <a href="http://www.facebook.com" target="_top"
+            ><img src="images/FACEBOOK LOGO.png" />
+          </a>
+
+          <a href="http://www.youtube.com" target="-top"
+            ><img src="images/YOUTUBE LOGO.png" />
+          </a>
+
+          <a href="http://www.instagram.com" target="-top"
+            ><img src="images/INSTAGRAM LOGO.png" />
+          </a>
+        </div>
       </section>
       <!-- this is prices section  -->
       <section id="prices">
